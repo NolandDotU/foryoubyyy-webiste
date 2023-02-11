@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parallax Scrolling Website | Vanilla Javascript</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">logo</a>
+            <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+        <img src="imagine/stars.png" id="stars">
+        <img src="imagine/moon.png" id="moon">
+        <img src="imagine/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Moon Light</h2>
+        <a href="#sec" id="btn">Explore</a>
+        <img src="imagine/mountains_front.png" id="mountains_front">
+     </section>
+     <div class="sec" id="sec">
+        <h2>Parallax Scrolling Effects</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Soluta libero rerum tenetur sequi assumenda corrupti animi
+              provident dignissimos in nulla pariatur iste eius illo,
+               velit sapiente molestiae fuga possimus aliquid.mountains_frontmountains_front.
+                <br></br> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Porro hic ad natus nemo enim sit libero quam illo ullam, neque illum earum,
+                  suscipit incidunt repellat quo at, dicta error. Atque!.
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                   Perspiciatis quis doloribus qui molestiae, dolorum sit? Inventore 
+                   voluptatem fuga nesciunt deleniti optio a veniam dignissimos.
+                    Voluptatem ipsum inventore numquam neque nesciunt! Lorem ipsum 
+                    dolor sit amet consectetur adipisicing elit. Cum expedita
+                     soluta veritatis, atque eum magni, architecto quas iste quia 
+                     nihil pariatur asperiores. Dolores veniam eum esse similique sint.
+                      Fugit, similique!. <br></br> Lorem, ipsum dolor sit amet consectetur
+                       adipisicing elit.
+                        Odio, sapiente! Aspernatur minima nemo fuga modi nam veniam officia
+                         eveniet harum eligendi. Libero tempore culpa quia assumenda non
+                          accusantium eveniet veritatis? </p>
+     </div>
+     <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
+
+     </script>
+    </body>
+</html>
